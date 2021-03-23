@@ -1,0 +1,10 @@
+or10, Ordinadors 18, AlumMax 22, Pcs Sí 18, Proyector 1, Insono No 
+or12, Ordinadors 20, AlumMax 20, Pcs Sí 20, Proyector 1, Insono Si
+or13, Ordinadors 17, AlumMax 19, Pcs Sí 17, Proyector 1, Insono No
+or14, Ordinadors 19, AlumMax 20, Pcs Sí 19, Proyector 1, Insono No
+or15, Ordinadors 18, AlumMax 22, Pcs Sí 18, Proyector 1, Insono No
+or16, Ordinadors 22, AlumMax 23, Pcs Sí 22, Proyector 0, Insono Si
+or17, Ordinadors 20, AlumMax 21, Pcs Sí 20, Proyector 1, Insono No
+or18, Ordinadors 19, AlumMax 19, Pcs Sí 19, Proyector 1, Insono No
+or19, Ordinadors 16, AlumMax 20, Pcs Sí 16, Proyector 1, Insono Si
+or20, Ordinadors 18, AlumMax 22, Pcs Sí 18, Proyector 0, Insono No
