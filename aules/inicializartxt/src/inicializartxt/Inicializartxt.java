@@ -21,16 +21,35 @@ public class Inicializartxt {
      */
     public static void main(String[] args) throws IOException {
         File fichero = new File("C:/ProyectoM03/aules/aules.txt");
-       try {
-            FileWriter writer = new FileWriter(fichero, true);
+        
+        ArrayList<String> lineas = new ArrayList<>();
+        
+        try {
+             Scanner lectorFichero = new Scanner(fichero);
+                      
+            while(lectorFichero.hasNext()) {
+                lineas.add(lectorFichero.nextLine());
+            }
             
-            writer.write("Línea 5\n");
-            writer.write("Línea 6\n");
-            writer.write("Línea 7\n");
+            lectorFichero.close();
+        } catch (Exception e) {
+            System.out.println("Ha ocurrido un error al abrir/leer el fichero");
+        }
+        
+        try {
+            FileWriter writer = new FileWriter(fichero);
+            
+            for (String linea : lineas) {
+                if (!"Línea ejemplo 4".equals(linea)) {
+                    writer.write(linea + "\n");
+                } else {
+                    writer.write(linea + "\n");
+                }
+            }
             
             writer.close();
         } catch (Exception e) {
-            System.out.println("Ha ocurrido un error al crear/escribir en el fichero");
+            System.out.println("Ha ocurrido un error al abrir/sobreescribir el fichero");
         }
     }
     
