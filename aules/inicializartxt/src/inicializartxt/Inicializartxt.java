@@ -40,9 +40,9 @@ public class Inicializartxt {
             FileWriter writer = new FileWriter(fichero);
             
             for (String linea : lineas) {
-                if (!"Línea ejemplo 4".equals(linea)) {
+                if (!"Línea 4".equals(linea)) {
                     writer.write(linea + "\n");
-                } else {
+                }  else {
                     writer.write(linea + "\n");
                 }
             }
