@@ -22,11 +22,11 @@ public class Inicializartxt {
     public static void main(String[] args) throws IOException {
         File fichero = new File("C:/ProyectoM03/aules/aules.txt");
        try {
-            FileWriter writer = new FileWriter(fichero);
+            FileWriter writer = new FileWriter(fichero, true);
             
-            writer.write("Línea 1\n");
-            writer.write("Línea 2\n");
-            writer.write("Línea 3\n");
+            writer.write("Línea 5\n");
+            writer.write("Línea 6\n");
+            writer.write("Línea 7\n");
             
             writer.close();
         } catch (Exception e) {
